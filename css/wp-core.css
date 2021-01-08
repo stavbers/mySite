@@ -1,0 +1,219 @@
+body {
+    overflow-wrap: break-word;
+  }
+  .alignnone {
+    margin: 5px 20px 20px 0;
+  }
+  .aligncenter,
+  div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+  }
+  .alignright {
+    float: right;
+    margin: 5px 0 30px 30px;
+  }
+  .alignleft {
+    float: left;
+    margin: 5px 30px 30px 0;
+  }
+  a img.alignright {
+    float: right;
+    margin: 5px 0 30px 30px;
+  }
+  a img.alignnone {
+    margin: 5px 30px 30px 0;
+  }
+  a img.alignleft {
+    float: left;
+    margin: 5px 30px 30px 0;
+  }
+  a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .alignwide {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+  }
+  .wp-block-spacer {
+    clear: both;
+  }
+  .wp-block-image .aligncenter {
+    width: 100%;
+  }
+  .wp-block-image .aligncenter img {
+    margin: auto;
+  }
+  .ckav-content-wrp hr {
+    clear: both;
+  }
+  p .size-full.alignright[width="150"] {
+    float: none;
+    margin: 20px 0 0 0;
+  }
+  .wp-block-button {
+    margin-bottom: 20px;
+  }
+  .wp-block-button.aligncenter {
+    clear: both;
+  }
+  @media only screen and (min-width: 768px) {
+    .wp-block-cover.alignleft {
+      max-width: calc(4*(100vw/12));
+      margin-right: calc(2*1rem);
+    }
+    .wp-block-cover {
+      padding: 1rem 10%;
+    }
+    .wp-block-columns.alignfull {
+      margin-left: -40px;
+      width: calc(100% + 80px);
+      max-width: inherit;
+    }
+    .wp-block-media-text.alignfull,
+    .wp-block-embed.alignfull,
+    .wp-block-gallery.alignfull,
+    .wp-block-cover.alignfull,
+    .wp-block-image.alignfull {
+      margin-left: -75px;
+      width: calc(100% + 150px);
+      max-width: inherit;
+    }
+  }
+  .wp-embed-aspect-16-9 .wp-block-embed__wrapper {
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .wp-embed-aspect-16-9 .wp-block-embed__wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .wp-block-code {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .wp-caption {
+    background: #fff;
+    border: 0;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .wp-caption.alignnone {
+    margin: 5px 30px 30px 0;
+  }
+  .wp-caption.alignleft {
+    margin: 5px 30px 30px 0;
+  }
+  .wp-caption.alignright {
+    margin: 5px 0 30px 30px;
+  }
+  .wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+  }
+  .wp-caption p.wp-caption-text {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 17px;
+    margin: 0;
+    padding: 8px 4px 5px;
+  }
+  /* Text meant only for screen readers. */
+  .screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  }
+  .screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+  }
+  .bypostauthor {
+    vertical-align: middle;
+  }
+  .wp-block-image .alignleft {
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .wp-block-image .alignright {
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  .wp-caption figcaption,
+  .wp-block-image figcaption {
+    margin: 0;
+    padding: 10px 30px;
+  }
+  blockquote {
+    padding: 20px 30px !important;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.02);
+    border-left: 4px solid rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  blockquote cite {
+    font-size: 14px;
+    opacity: 0.6;
+    display: block;
+    margin-top: 10px;
+  }
+  blockquote p {
+    margin: 0;
+  }
+  .wp-block-pullquote.is-style-solid-color blockquote {
+    color: #fff;
+  }
+  table {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 5px 15px;
+  }
+  
